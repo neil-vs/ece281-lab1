@@ -19,11 +19,14 @@
 | Oct   | 1 | 0 | 1 | 0 | 1 |
 | Nov   | 1 | 0 | 1 | 1 | 0 |
 | Dec   | 1 | 1 | 0 | 0 | 1 |
+|       | 1 | 1 | 1 | 0 | X |
+|       | 1 | 1 | 0 | 1 | X |
+|       | 1 | 1 | 1 | 1 | X |
 
 ### Boolean Equation
 
 $$
-Y = A\overline{D} + \overline{A}D = A \oplus D
+Y = A'D + AD'
 $$
 
 ### Digital Simulations
